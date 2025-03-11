@@ -52,9 +52,9 @@ const payment = require("./routes/payment");
 const order = require("./routes/order");
 
 // testing routes
-app.get('/',(req,res)=>{
-  res.send("working")
-})
+// app.get('/',(req,res)=>{
+//   res.send("working")
+// })
 app.get("/api/v1/signuptest", (req, res) => {
   res.render("signuptest");
 });
