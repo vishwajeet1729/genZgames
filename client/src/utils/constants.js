@@ -1,5 +1,5 @@
 //Local
-const baseURL = "http://localhost:4000/api/v1";
+const baseURL = "https://gen-zgames.vercel.app/api/v1";
 
 //Deployed
 // const baseURL = "https://genzgames-production-7030.up.railway.app/api/v1";
