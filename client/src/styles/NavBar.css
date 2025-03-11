@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+#NavContainer{
+    top: 0px;
+    width: 100vw;
+    height: fit-content;
+    background-color:#15171db7 ;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border:1px solid white; */
+    overflow-x: hidden;
+}
+
+#logoContainer{
+    display: flex;
+    gap:40px;
+    height: fit-content;
+    width: auto;
+    z-index: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoImg{
+    height: 58px;
+    width: 148px;
+    padding:10px;
+}
+#Menu{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    gap:40px;
+   
+}
+
+#Menu li{
+    list-style-type: none;
+}
+
+#Menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+
+#userUtil{
+    display: flex;
+    height: fit-content;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+    margin-right:  20px;
+    margin-top: -8px;
+   
+}
+#user{
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    border:0px solid rgba(84, 78, 78, 0.669);
+    box-shadow:1px 1px 1px white;
+    border-radius: 50%;
+    margin-right: 12px;
+
+}
+
+#cart{
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+}
+
+#heart{
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+#searchbox{
+    display: flex;
+    width: auto;
+    gap:12px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#search{
+    width: 300px;
+    text-align: left;
+    outline: none;
+    margin-top: -10px;
+    border: 1px solid whitesmoke;
+    font-size: 13px;
+    border-radius: 4px;
+    background: #fcfbfbcf;
+    font-family: "Play";
+    color: black;
+    transition: all 0.2s ease;
+}
+
+#search:hover {
+    background: whitesmoke;
+}
+
+#cartBody{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-height: 400px;
+    overflow-y: scroll;
+    gap:10px;
+}

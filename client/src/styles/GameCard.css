@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+#GameContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'Play', sans-serif;
+    @media (max-width: 480px) {
+       height: fit-content;
+    }
+    /* overflow: hidden; */
+}
+#title{
+    height: fit-content;
+    font-size:20px;
+    padding:0px;
+    color:white;
+    text-align: center;
+    transition: 140ms all ease-in-out;
+}
+
+#title:hover{
+    color: rgb(217, 165, 10);
+}
+#cover{
+    height: 300px;
+    width: 100%;
+    @media (max-width: 480px) {
+        height: 250px;
+    }
+     
+}
+
+#platforms{
+    height: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buyContainer{
+    width: 100%;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:5px;
+    @media (max-width: 480px) {
+        flex-direction: row;
+        height: fit-content;
+    }
+}
+
+#price{
+    width: 100px
+}
+
+#buy{
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Play', sans-serif;
+    height: 40px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: #fdb44b;
+    color: black;
+
+    border-radius: 35px;
+    transition: 250ms all ease-in;
+
+    @media (max-width: 480px) {
+        width: 100%;
+        height: 30px;
+    } 
+    
+}
+
+#buy:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: #f57c30;
+}
+
+
+#platforms{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+   
+}
+
+.icon{
+    width: 28px;
+    height: 29px;
+    padding: 5px 5px;
+    @media (max-width: 480px) {
+        width: 18px;
+        height: 19px;
+     }
+    
+}
+
+
+
+
+
