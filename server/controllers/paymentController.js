@@ -5,7 +5,7 @@ const crypto = require("crypto");
 
 exports.sendRazorpayKey = BigPromise(async (req, res, next) => {
   res.status(200).json({
-    razorpaykey: process.env.RAZORPAY_API_KEY,
+    razorpaykey: "rzp_test_R9GkVba7wyPTbu",
   });
 });
 
