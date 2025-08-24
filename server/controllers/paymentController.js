@@ -11,8 +11,8 @@ exports.sendRazorpayKey = BigPromise(async (req, res, next) => {
 
 exports.captureRazorpayPayment = BigPromise(async (req, res, next) => {
   let instance = new Razorpay({
-    key_id: process.env.RAZORPAY_API_KEY,
-    key_secret: process.env.RAZORPAY_SECRET,
+    key_id: "rzp_test_R9GkVba7wyPTbu",
+    key_secret: "JI087jG7Iie62QJkvTGtDB1n",
   });
 
   let options = {
