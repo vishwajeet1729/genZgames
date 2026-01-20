@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+  import React, { useEffect, useState } from "react";
 import "../styles/Order.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
@@ -63,7 +63,7 @@ function Orders() {
                     paymentInfo={orderEle.paymentInfo}
                     date={
                       new Date(orderEle.createdAt).getDate() +
-                      1 +
+                      +
                       "/" +
                       new Date(orderEle.createdAt).getMonth() +
                       "/" +
