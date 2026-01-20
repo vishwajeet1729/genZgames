@@ -1,4 +1,4 @@
-  import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Order.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
@@ -61,13 +61,7 @@ function Orders() {
                     title={orderItem.name}
                     productId={orderItem.product}
                     paymentInfo={orderEle.paymentInfo}
-                    date={
-  new Date(orderEle.createdAt).getDate() +
-  "/" +
-  (new Date(orderEle.createdAt).getMonth() + 1) +
-  "/" +
-  new Date(orderEle.createdAt).getFullYear()
-}
+                    date={new Date(orderEle.createdAt).toLocaleDateString("en-GB")}
 
                     price={orderItem.price}
                     gameKey={orderItem.gameKey}
