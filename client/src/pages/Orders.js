@@ -62,13 +62,13 @@ function Orders() {
                     productId={orderItem.product}
                     paymentInfo={orderEle.paymentInfo}
                     date={
-                      new Date(orderEle.createdAt).getDate() +
-                      
-                      "/" +
-                      (new Date(orderEle.createdAt).getMonth()+1 ) +
-                      "/" +
-                      new Date(orderEle.createdAt).getFullYear()
-                    }
+  new Date(orderEle.createdAt).getDate() +
+  "/" +
+  (new Date(orderEle.createdAt).getMonth() + 1) +
+  "/" +
+  new Date(orderEle.createdAt).getFullYear()
+}
+
                     price={orderItem.price}
                     gameKey={orderItem.gameKey}
                   />
