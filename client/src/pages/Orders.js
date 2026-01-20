@@ -65,7 +65,7 @@ function Orders() {
                       new Date(orderEle.createdAt).getDate() +
                       
                       "/" +
-                      new Date(orderEle.createdAt).getMonth() +
+                      (new Date(orderEle.createdAt).getMonth()+1 ) +
                       "/" +
                       new Date(orderEle.createdAt).getFullYear()
                     }
